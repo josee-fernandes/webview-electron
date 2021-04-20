@@ -1,7 +1,7 @@
 {
   "name": "webview-electron",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "main.ts",
   "scripts": {
     "start": "electron ."
   },
@@ -10,5 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^12.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
   }
 }
